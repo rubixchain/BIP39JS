@@ -1,0 +1,31 @@
+{
+  "name": "signatureverification",
+  "version": "1.0.0",
+  "main": "signatureverfication.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "keygen": "node keyGeneration.js",
+    "sigtest": "node signatureverfication.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@noble/curves": "^1.8.1",
+    "@noble/secp256k1": "^2.2.3",
+    "bip32": "^5.0.0",
+    "ecc": "^0.0.2",
+    "elliptic": "^6.6.1",
+    "tiny-secp256k1": "^2.2.4"
+  },
+  "devDependencies": {
+    "bip39": "^3.1.0",
+    "chai": "^5.1.2",
+    "hdkey": "^2.1.0",
+    "mocha": "^11.1.0",
+    "secp256k1": "^5.0.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "description": ""
+}
